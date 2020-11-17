@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+.topbody{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;	
+	font-size: 13px;
+}
+.topbody_left{
+	width: 100px;
+	line-height: 30px;
+	text-align: center;	
+	float: left;
+}
+.topbody_left a{
+	text-decoration: none;
+	color: #8c8c8c;
+}
+.topbody_left a:hover{
+	color: #ca151e;
+}
+.topbody_right{
+	width: 280px;
+	line-height: 30px;	
+	float: right;	
+}
+.topbody_right a{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 6px;
+}
+.topbody_right a:nth-of-type(1),.topbody_right a:nth-of-type(2){
+	float: left;
+	color: #333;
+}
+.topbody_right a:nth-of-type(1):hover{
+	color: #ca151e ;
+}
+.topbody_right a:nth-of-type(2):hover{
+	color: #ca151e ;
+}
+.topbody_right a:nth-of-type(3){
+	width: 100px;
+	color: #8c8c8c;
+	float: right;
+	position: relative;
+}
+.topbody_right a:nth-of-type(3):hover{
+	color:  #ca151e;
+}
+.topbody_right a:nth-of-type(3) span{
+	display: inline-block;
+	
+}
+.topsp_1{
+	width:15px ;
+	height: 16px;
+	background: url(http://www.sctvgo.com/themes/default/images/icon/wap.gif) no-repeat;
+	text-align: left;
+	vertical-align: middle
+}
+.topbody_right a:nth-of-type(3):hover .topsp_1{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/wap-hover.gif) no-repeat;
+}
+.layout{
+	width: 1200px;
+	height: 81px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.logo{
+	float: left;
+    width: 345px;
+    height: 81px;
+}
+.logo img{
+	float: left;
+}
+.logo span{
+	float: right;
+	display: inline-block;
+	width: 100px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 25px;	
+	color: red;
+}
+.searchBar_cart{
+	float: right;
+	width: 607px;
+	height: 30px;
+	padding: 15px 7px 0 0;
+}
+.cart_main{
+	width: 1200px;
+    margin: 20px auto 100px;
+    padding: 0;
+    cursor: pointer;
+}
+.cart_list_top{
+	width: 100%;
+	height: 40px;
+}
+.cart_list_top span{
+	color: red;
+	font-size: 20px;
+	margin-right: 50px;	
+}
+.cart_head{
+	width: 1200px;
+	height: 44px;
+    background: #f3f3f3;
+}
+.cart_head span{
+	display: block;
+	float: left;
+	height: 44px;
+	line-height: 44px ;
+	text-align: center;
+}
+.cart_head span:nth-of-type(1){
+	width: 110px;
+	text-align: left;
+}
+.cart_head span:nth-of-type(1) input{
+	margin-top: 16px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+.cart_head span:nth-of-type(2){
+	width: 546px;
+}
+.cart_head span:nth-of-type(3),.cart_head span:nth-of-type(4){
+	width: 126px;
+}
+.cart_head span:nth-of-type(5){
+	width: 166px;
+}
+.cart_head span:nth-of-type(6){
+	width: 106px;
+}
+.cart_vendor{
+	width: 100%;
+	height: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 2px solid gray;
+}
+.cart_vendor input{
+	margin-top: 5px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+.cart_item_list{
+	width: 100%;
+	border: 1px solid gainsboro;
+	border-top: none;
+}
+.cart_item_list ul{
+	width: 100%;
+}
+.cart_item_list ul li{
+	width: 100%;
+	height: 113px;
+	border-bottom: 1px solid gainsboro;
+	list-style: none;
+	background: #fff4e8;
+}
+.cart_item_list li input:nth-of-type(1){
+	float: left;
+	width: 13px;
+	display: block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.cart_item_list img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	display: block;
+	margin: 10px 0  0 20px;	
+}
+.cart_item_list li p:nth-of-type(1){
+	float: left;
+	width: 518px;
+	height: 100px;
+	text-align: center;
+	line-height:100px ;
+	font-size: 14px;
+}
+.cart_item_list li p:nth-of-type(2){
+	width: 126px;
+	height: 100px;
+	float: left;
+	font-size: 13px;
+	line-height: 100px;
+	text-align: center;
+}
+.cart_item_list li p:nth-of-type(3){
+	width: 145px;
+	height: 58px;
+	float: left;
+	margin-top: 30px;
+}
+.cart_item_list li span:nth-of-type(1){
+	float: left;
+	width: 13px;
+	display: block;
+	width: 25px;
+	height: 29px;
+	margin-top: 5px;
+	background-color: white;
+	text-align: center;
+	line-height: 29px;
+}
+.cart_item_list li p:nth-of-type(3) input{
+	width: 80px;
+	height: 25px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin: 5px 5px 0 5px;
+	outline: none;
+	text-align: center;	
+}
+.cart_item_list li span:nth-of-type(2){
+	float: right;
+	width: 13px;
+	display: block;
+	width: 25px;
+	height: 29px;
+	margin-top: 5px;
+	background-color: white;
+	text-align: center;
+	line-height: 29px;
+}
+.cart_item_list li p:nth-of-type(4){
+	width: 166px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 10px;
+}
+.cart_item_list li p:nth-of-type(5){
+	width: 100px;
+	height: 80px;
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.cart_footer_price{
+	width: 1200px;
+	height: 52px;
+	border: 1px solid gainsboro;
+	border-top: none;
+}
+.cart_footer_price p{
+	width: 100%;
+	height: 100%;
+}
+.cart_footer_price p span{
+	display: block;
+	width: 150px;
+	height: 100%;
+	float: right;
+	line-height: 52px;
+	text-align: center;
+}
+.cart_footer_price p span:nth-of-type(2){
+	text-align: right;
+	color: red;
+	font-weight: bold;
+}
+.cart_footer_price p span:nth-of-type(1){
+	color: red;
+	text-align: left;
+	font-weight: bold;
+}

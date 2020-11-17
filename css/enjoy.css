@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	width: 980px;
+	height: 51px;
+	margin: 0 auto;
+}
+.logo img{
+	height: 51px;
+}
+.login{
+	width: 980px;
+	height: 630px;
+	margin: 0 auto;
+}
+.login-bg{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/login_bg.png);
+    width: 400px;
+    height: 386px;
+    float: left;
+    margin-top: 140px;	
+}
+.loginBord{
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.095);
+    color: #333;
+    min-height: 450px;
+    width: 450px;
+    margin-top: 100px;
+  	float: right;
+}
+.loginBord h1{
+	color: #CA141D;
+    font-size: 20px;
+    font-weight: 500;
+    text-indent: 2.5em;
+}
+.form{
+	width: 310px;
+	height: 330px;
+	margin-left: 50px;
+}
+.form p{
+	width: 400px;
+	height: 43px;
+	margin-top: 50px;
+	
+}
+.form p input{
+	width: 280px;
+	height: 43px;
+	border: none;
+	border: 1px solid gainsboro;
+	display: block;
+	float: left;
+}
+.form p:nth-of-type(3){
+	font-size: 14px;
+	color: red;
+}
+.form p:nth-of-type(4) input{
+	background-color: red;
+	outline: none;
+	font-size: 15px;
+	color: white;
+}
+.form p:nth-of-type(1) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat;
+	text-indent: 3em;
+}
+.form p:nth-of-type(2) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat 0px -50px;
+	text-indent: 3em;
+}
+.form p span{
+	display: inline-block;
+	width: 110px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: red;
+	margin-left: 5px;
+}

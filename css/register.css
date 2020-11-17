@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+	height: 800px;
+	background-color: rgb(242, 242, 242);
+}
+.logo{
+	width: 980px;
+	height: 51px;
+	margin: 0 auto;
+}
+.logo img{
+	height: 51px;
+}
+.Contentbox{
+	width: 980px;
+	height: 451px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 100px;
+}
+.Contentbox .myform{
+	width: 880px;
+	height: 360px;
+	margin: 40px 0 0 100px;
+	float: right;
+}
+.reg_agreement{
+	float: left;
+	width:300px ;
+	height:50px ;
+	margin-left: 200px;
+	line-height: 50px;
+}
+.reg_agreement a{
+	text-decoration: none;
+	color: #EB3D3F;
+	font-size: 12px;
+	font-weight: bold;
+}
+.myform p{
+	width: 880px;
+	height: 40px;
+	float: right;
+	margin-bottom: 20px;
+}
+.myform p span{
+	color: red;
+}
+.myform p input{
+	float: left;
+	width: 400px;
+	height: 36px;
+}
+.myform p span{
+	display:inline-block;
+	float: left;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+}
+.myform p:nth-of-type(6) input{
+	color: white;
+	font-size: 14px;
+	background: red;
+	outline: none;
+	border: none;
+	width: 300px;
+}
+.myform input{
+	outline: 0;
+}
+.myform p:nth-of-type(1) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat;
+	border: none;
+	border: 1px solid grey;
+	text-indent: 40px;	
+}
+.myform p:nth-of-type(2) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat 0px -50px;
+	border: none;
+	border: 1px solid grey;
+	text-indent: 40px;	
+}
+.myform p:nth-of-type(3) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat 0px -50px;
+	border: none;
+	border: 1px solid grey;
+	text-indent: 40px;	
+}
+.myform p:nth-of-type(4) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat 0px -50px;
+	border: none;
+	border: 1px solid grey;
+	text-indent: 40px;	
+}
+.myform p:nth-of-type(5) input{
+	background: url(http://www.sctvgo.com/themes/default/images/icon/sign.png) no-repeat 0px -50px;
+	border: none;
+	border: 1px solid grey;
+	text-indent: 40px;	
+}
+.ppp4,.ppp5{
+	background: gainsboro;
+	margin-left: 5px;
+	text-align: center;
+}
+ .myform .ppp1{
+	width: 300px;
+	background: white;
+	font-size: 12px;
+
+}
+.myform .ppp2{
+	width: 300px;
+	background: white;
+	font-size: 12px;
+	
+}
+.myform .ppp3{
+	width: 300px;
+	background: white;
+	font-size: 12px;
+		
+}
+.myform .ppp6{
+	width: 100px;
+	background: white;
+	font-size: 12px;
+		
+}
+.myform .ppp7{
+	width: 100px;
+	background: white;
+	font-size: 12px;
+		
+}
